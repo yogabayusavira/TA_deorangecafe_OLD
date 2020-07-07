@@ -24,7 +24,49 @@
                                 @endif
                             </div>
                         </div>
+                        
+                        <div class="form-group row">
+                            <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Nomor Telepon') }}</label>
 
+                            <div class="col-md-6">
+                                <input id="phone" type="phone" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required>
+
+                                @if ($errors->has('phone'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('phone') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="state" class="col-md-4 col-form-label text-md-right">{{ __('Alamat') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="state" type="state" class="form-control{{ $errors->has('state') ? ' is-invalid' : '' }}" name="state" value="{{ old('state') }}" required>
+
+                                @if ($errors->has('state'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('state') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="state" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
+
+                            <div class="col-md-6" aria-labelledby="navbarDropdown">
+                                {{-- <input id="state" type="state" class="form-control{{ $errors->has('state') ? ' is-invalid' : '' }}" name="state" value="{{ old('state') }}" required> --}}
+                                {{ Form::select('role', ['2' => 'Admin', '3' => 'Dapur', '4' => 'Pelayan', '5' => 'Kasir'], '4', ['class' => 'form-control'])}}
+                                @if ($errors->has('state'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('state') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+{{--  --}}
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
