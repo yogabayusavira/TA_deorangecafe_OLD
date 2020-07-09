@@ -81,10 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Orange De Cafe Store
                 </div>
-
-                <div class="links">
+            <div>
+                {{-- <a href="dhttps://cdn.imgbin.com/1/3/17/imgbin-coffee-shop-EcNiVCKAVM2ucWL4QgtZN5xKq.jpg"></a> --}}
+                {{-- <img src="https://cdn.imgbin.com/1/3/17/imgbin-coffee-shop-EcNiVCKAVM2ucWL4QgtZN5xKq.jpg"> --}}
+            </div>
+                {{-- <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
@@ -93,7 +96,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </body>

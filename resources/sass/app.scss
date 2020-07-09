@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
-
+// @import 'variables';
+@import '~bootswatch/dist/darkly/variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import "~bootswatch/dist/materia/bootswatch";
