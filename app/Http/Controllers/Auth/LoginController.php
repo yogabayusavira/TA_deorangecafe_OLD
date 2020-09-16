@@ -33,16 +33,16 @@ class LoginController extends Controller
             $this->redirectTo = '/admin';
             return $this->redirectTo;
                 break;
-            case 4:
-                    $this->redirectTo = '/dapurpage';
-                return $this->redirectTo;
-                break;
             case 3:
                 $this->redirectTo = '/kasirpage';
                 return $this->redirectTo;
                 break;
+            case 4:
+                $this->redirectTo = '/dapurpage';
+                return $this->redirectTo;
+                break;
             case 5:
-                    $this->redirectTo = '/pesanpage';
+                $this->redirectTo = '/pesanpage';
                 return $this->redirectTo;
                 break;
             default:
@@ -59,6 +59,6 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        // $this->middleware('guest')->except('logout');
+         //$this->middleware('guest')->except('logout');
     }
 }
