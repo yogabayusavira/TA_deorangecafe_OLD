@@ -1,5 +1,5 @@
 ## About this Project
-It has been moved to a new github repo >> [Click me!] (https://github.com/redbluesky21/TA_deorangecafe) <<
+It has been moved to a new github repo >> [Click me!](https://github.com/redbluesky21/TA_deorangecafe) <<
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
